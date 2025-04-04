@@ -9,6 +9,6 @@ Feel free to leave your comment on linkdin post and share your code for better a
 # Dataset link1 : covidDeaths [CovidDeaths (1).xlsx](https://github.com/user-attachments/files/19148332/CovidDeaths.1.xlsx)
 # Dataset link2 : covidvaccinations [CovidVaccinations(1).xlsx](https://github.com/user-attachments/files/19148334/CovidVaccinations.1.xlsx)
 Feel free to give your insight on it and share your code for better analysis
-
-#Project 3 : Bike sales analysis(Through Excel)
-#Full Excel Sheet : Datasets/Excel Project Dataset.xlsx
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Project 3 : Bike sales analysis(Through Excel)
+# Full Excel Sheet : Datasets/Excel Project Dataset.xlsx
