@@ -12,3 +12,6 @@ Feel free to give your insight on it and share your code for better analysis
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Project 3 : Bike sales analysis(Through Excel)
 # Full Excel Sheet : Datasets/Excel Project Dataset.xlsx
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Project 4 : Power BI Dashboard
+# Dataset : Datasets/Apocolypse_dataset.xlsx
