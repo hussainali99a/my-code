@@ -20,4 +20,5 @@ Feel free to give your insight on it and share your code for better analysis
 # Description : Analyse the pizza_sales trend using sql and excel , in sql queries are fired to retrieve the data & find the desired outputs.
 # Then in Excel data has been clean and processed in order to create dashboard , pivot table sheet , and excel dashboard is added
 # For dataset(CSV file) : Datasets/pizza_sales.csv
-# For sql Code : 
+# For sql Code : SQL_project/Pizza_sales.sql
+# For excel(clean and processed data) ,  dashboard and Pivot_table sheet : 
