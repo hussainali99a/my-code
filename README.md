@@ -21,4 +21,6 @@ Feel free to give your insight on it and share your code for better analysis
 # Then in Excel data has been clean and processed in order to create dashboard , pivot table sheet , and excel dashboard is added
 # For dataset(CSV file) : Datasets/pizza_sales.csv
 # For sql Code : SQL_project/Pizza_sales.sql
-# For excel(clean and processed data) ,  dashboard and Pivot_table sheet : 
+# For excel(clean and processed data) ,  dashboard and Pivot_table sheet : Datasets/Pizza_sale_analysis_dashboard.xlsx
+# Feel free to reach out on linkdin or mail me for new suggestions
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
