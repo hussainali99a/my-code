@@ -24,3 +24,8 @@ Feel free to give your insight on it and share your code for better analysis
 # For excel(clean and processed data) ,  dashboard and Pivot_table sheet : Datasets/Pizza_sale_analysis_dashboard.xlsx
 # Feel free to reach out on linkdin or mail me for new suggestions
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# project 6 : Uber ride analysis (June Month)
+# Description : Analyse the uber data , used the advanced dax function , taken out many insights
+# dataset : go to dataset folders uber_details and location
+# For dashboard : do to dashboard folder (.pbix file)
+
