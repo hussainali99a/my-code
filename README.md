@@ -28,4 +28,6 @@
 ## Description : Analyse the uber data , used the advanced dax function , taken out many insights
 ## dataset : go to dataset folders uber_details and location
 ## For dashboard : do to dashboard folder (.pbix file)
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Project 7 : Blinkit Sales Analyis Using Python
+## for notebook go to python analysis code folder 
