@@ -6,21 +6,21 @@
 ## Feel free to leave your comment on linkdin post and share your code for better analysis.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project 2 : EDA for Covid deaths(analyzing covid data , finding insights and trends)
-## Dataset link1 : covidDeaths [CovidDeaths (1).xlsx](https://github.com/user-attachments/files/19148332/CovidDeaths.1.xlsx)
-## Dataset link2 : covidvaccinations [CovidVaccinations(1).xlsx](https://github.com/user-attachments/files/19148334/CovidVaccinations.1.xlsx)
+## Dataset link1 covidDeaths [here](CovidDeaths (1).xlsx](https://github.com/user-attachments/files/19148332/CovidDeaths.1.xlsx)
+## Dataset link2 covidvaccinations [here](CovidVaccinations(1).xlsx](https://github.com/user-attachments/files/19148334/CovidVaccinations.1.xlsx)
 ## Feel free to give your insight on it and share your code for better analysis
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project 3 : Bike sales analysis(Through Excel)
-## Full Excel Sheet : Datasets/Excel Project Dataset.xlsx
+## Full Excel Sheet [here](Datasets/Excel Project Dataset.xlsx)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project 4 : Power BI Dashboard
-## Dataset : Datasets/Apocolypse_dataset.xlsx
+## Dataset [here](Datasets/Apocolypse_dataset.xlsx)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project 5 : Pizza_sales_analysis
 ## Description : Analyse the pizza_sales trend using sql and excel , in sql queries are fired to retrieve the data & find the desired outputs.
 ## Then in Excel data has been clean and processed in order to create dashboard , pivot table sheet , and excel dashboard is added
-## For dataset(CSV file) : Datasets/pizza_sales.csv
-## For sql Code : SQL_project/Pizza_sales.sql
+## For dataset(CSV file) [here](Datasets/pizza_sales.csv)
+## For sql Code [here](SQL_project/Pizza_sales.sql)
 ## For excel(clean and processed data) ,  dashboard and Pivot_table sheet : Datasets/Pizza_sale_analysis_dashboard.xlsx
 ## Feel free to reach out on linkdin or mail me for new suggestions
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
