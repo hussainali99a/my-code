@@ -6,8 +6,8 @@
 ## Feel free to leave your comment on linkdin post and share your code for better analysis.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project 2 : EDA for Covid deaths(analyzing covid data , finding insights and trends)
-## Dataset link1 covidDeaths [here](CovidDeaths (1).xlsx](https://github.com/user-attachments/files/19148332/CovidDeaths.1.xlsx)
-## Dataset link2 covidvaccinations [here](CovidVaccinations(1).xlsx](https://github.com/user-attachments/files/19148334/CovidVaccinations.1.xlsx)
+## Dataset link1 covidDeaths [here](https://github.com/user-attachments/files/19148332/CovidDeaths.1.xlsx)
+## Dataset link2 covidvaccinations [here](https://github.com/user-attachments/files/19148334/CovidVaccinations.1.xlsx)
 ## Feel free to give your insight on it and share your code for better analysis
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project 3 : Bike sales analysis(Through Excel)
