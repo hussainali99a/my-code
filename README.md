@@ -32,3 +32,7 @@
 ## Project 7 : Blinkit Sales Analyis Using Python
 ## Datset [here](https://github.com/hussainali99a/my-code/tree/main/Datasets)
 ## for notebook go to python analysis code folder 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Revising Power BI Concept Using Amazon Product sales Analysis
+## Go to datasets for Amazon Combined Data[here](https://github.com/hussainali99a/my-code/tree/main/Datasets)
+
