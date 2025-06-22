@@ -35,4 +35,6 @@
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Revising Power BI Concept Using Amazon Product sales Analysis
 ## Go to datasets for Amazon Combined Data [here](https://github.com/hussainali99a/my-code/tree/main/Datasets)
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Project 8 : COVID-19 Data Analysis(WHO)
+## Go to python_analysis_code on the repo to find the full code
