@@ -1,0 +1,151 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-indigo-500 to-purple-600 min-h-screen flex items-center justify-center">
+
+    <div class="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">
+            🔗 URL Shortener
+        </h1>
+
+        <form method="POST" action="/shorten/" class="space-y-4">
+            {% csrf_token %}
+
+            <input 
+                type="url" 
+                name="url" 
+                placeholder="Enter your long URL..." 
+                required
+                class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-400 outline-none"
+            >
+
+            <input 
+                type="text" 
+                name="alias" 
+                placeholder="Custom alias (optional)"
+                class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-400 outline-none"
+            >
+
+            <button 
+                type="submit"
+                class="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition duration-200"
+            >
+                Shorten URL
+            </button>
+        </form>
+    </div>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-r from-indigo-500 to-purple-600 min-h-screen flex items-center justify-center">
+
+<div class="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md">
+    
+    <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">
+        🔗 URL Shortener
+    </h1>
+
+    <form method="POST" action="/shorten/" class="space-y-4">
+        {% csrf_token %}
+
+        <!-- URL INPUT -->
+        <input 
+            type="url" 
+            name="url" 
+            placeholder="Enter your long URL..." 
+            required
+            class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-400 outline-none"
+        >
+
+        <!-- ALIAS INPUT -->
+        <input 
+            type="text" 
+            id="alias"
+            name="alias" 
+            placeholder="Custom alias (e.g. portfolio)"
+            class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-400 outline-none"
+            oninput="handleAliasInput()"
+        >
+
+        <!-- AVAILABILITY MESSAGE -->
+        <p id="aliasStatus" class="text-sm"></p>
+
+        <!-- LIVE PREVIEW -->
+        <div class="bg-gray-100 p-3 rounded-lg text-sm text-gray-700">
+            Preview:
+            <span id="preview" class="font-semibold text-indigo-600">
+                loading...
+            </span>
+        </div>
+
+        <button 
+            type="submit"
+            class="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition duration-200"
+        >
+            Shorten URL
+        </button>
+
+    </form>
+</div>
+
+<script>
+    const preview = document.getElementById('preview');
+    const aliasInput = document.getElementById('alias');
+    const status = document.getElementById('aliasStatus');
+    const base = window.location.origin;
+
+    // Initial preview
+    preview.textContent = base + "/abc123";
+
+    function handleAliasInput() {
+        const alias = aliasInput.value.trim();
+
+        // Update preview
+        if (alias) {
+            preview.textContent = base + "/" + alias;
+        } else {
+            preview.textContent = base + "/abc123";
+            status.textContent = "";
+            return;
+        }
+
+        // Validate format (frontend)
+        const valid = /^[a-zA-Z0-9_-]+$/.test(alias);
+
+        if (!valid) {
+            status.textContent = "❌ Only letters, numbers, - and _ allowed";
+            status.className = "text-red-500 text-sm";
+            return;
+        }
+
+        // Check availability (backend)
+        fetch(`/check-alias/?alias=${alias}`)
+            .then(res => res.json())
+            .then(data => {
+                if (data.available) {
+                    status.textContent = "✅ Available";
+                    status.className = "text-green-600 text-sm";
+                } else {
+                    status.textContent = "❌ Already taken";
+                    status.className = "text-red-500 text-sm";
+                }
+            });
+    }
+</script>
+
+</body>
+</html>
