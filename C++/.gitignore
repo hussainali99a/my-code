@@ -1,0 +1,54 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled executable files
+*.exe
+*.out
+*.app
+
+# Executables without extension (Linux/Mac)
+2Dmatrix
+factorial
+first
+pattern
+pattern2
+prime
+reverse_string
+palindrome_string
+p_string2
+prime
+
+
+# Dependency files
+*.d
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+dist/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Compiler-specific files
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Debug symbols
+*.pdb
+*.dSYM/
